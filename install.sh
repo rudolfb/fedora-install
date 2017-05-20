@@ -32,6 +32,6 @@ chmod +x elixir-erlang.sh
 cd "$CWD"
 
 # Clean up the dynamically created temp directory.
-if [ -d "$TEMPDIRECTORY" ]; then
+# if [ -d "$TEMPDIRECTORY" ]; then
     sudo rm -r "$TEMPDIRECTORY"
-fi
+# fi
