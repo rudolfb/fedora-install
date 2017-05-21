@@ -12,13 +12,6 @@ cd fedora-postgres-install
 chmod +x postgres.sh
 ./postgres.sh
 
-sublime text 3 dev
-cd "$TEMPDIRECTORY"
-git clone https://github.com/rudolfb/sublime-text-3-install.git
-cd sublime-text-3-install
-chmod +x sublime-text-3.sh
-./sublime-text-3.sh -d
-
 elixir, erlang, elm
 cd "$TEMPDIRECTORY"
 git clone https://github.com/rudolfb/fedora-elixir-erlang-install.git
@@ -26,8 +19,12 @@ cd fedora-elixir-erlang-install
 chmod +x elixir-erlang.sh
 ./elixir-erlang.sh
 
-
-
+sublime text 3 dev
+cd "$TEMPDIRECTORY"
+git clone https://github.com/rudolfb/sublime-text-3-install.git
+cd sublime-text-3-install
+chmod +x sublime-text-3.sh
+./sublime-text-3.sh -d
 
 cd "$CWD"
 
